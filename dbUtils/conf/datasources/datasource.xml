@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataSourcesConfigurations>
+	<datasource>
+		<source_name>userdb</source_name>
+		<host_ip>localhost</host_ip>
+		<db_name>HDSMS</db_name>
+		<type>mysql</type>
+		<username>root</username>
+		<password>root</password>
+		<min_conn>2</min_conn>
+		<max_conn>5</max_conn>
+		<partition_count>2</partition_count>
+	</datasource>
+	<datasource>
+		<source_name>userdb2</source_name>
+		<host_ip>localhost</host_ip>
+		<db_name>userdb</db_name>
+		<type>mysql</type>
+		<username>root</username>
+		<password>root</password>
+		<min_conn>2</min_conn>
+		<max_conn>5</max_conn>
+		<partition_count>2</partition_count>
+	</datasource>
+</DataSourcesConfigurations>
